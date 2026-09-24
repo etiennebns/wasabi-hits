@@ -1,0 +1,28 @@
+[project]
+name = "wasabi-hits"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "etiennebns", email = "bonnansetienne@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.10.9",
+    "pandas>=2.3.3",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+wasabi-hits = "wasabi_hits:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.8",
+]

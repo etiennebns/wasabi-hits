@@ -1,0 +1,15 @@
+# Données : trop lourdes, et pas à nous de les redistribuer
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+
+# Notebooks
+.ipynb_checkpoints/
