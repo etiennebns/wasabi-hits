@@ -2,7 +2,7 @@
 data/raw/*
 data/processed/*
 !data/**/.gitkeep
-
+archive/*
 # Python
 .venv/
 __pycache__/
