@@ -30,6 +30,7 @@ data/raw/          données d'origine, en LECTURE SEULE
 data/processed/    tables produites par le code, régénérables
 notebooks/         exploration : NN_sujet.ipynb (01_exploration, 02_jointure…)
 src/wasabi_hits/   fonctions réutilisables, importées par les notebooks
+scripts/           scripts ponctuels lancés avec `uv run` (inventaire, export…)
 figures/           graphiques exportés
 findings/          une page par question : protocole, résultats, limites
 journal/           carnet de bord : un fichier AAAA-MM-JJ.md par session
